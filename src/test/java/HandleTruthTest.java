@@ -9,6 +9,9 @@ public class HandleTruthTest {
     public void makeshiftTest() {
         String stringTestOne = "Hi my name is Tim Medvedev and today I am testing a " +
                              " word count method to see how many words I can count";
+        String stringTestTwo = "word count word count word count word count";
+        String stringTestThree = "This is a word count test this time time time time time we will be test" +
+                "ing how many times time comes up";
 
         String[] testCase1 = stringTestOne.split(" ");
         String[] testCase2 = stringTestTwo.split(" ");
