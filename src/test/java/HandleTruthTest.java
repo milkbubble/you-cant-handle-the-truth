@@ -12,7 +12,9 @@ public class HandleTruthTest {
         String stringTestTwo = "word count word count word count word count";
         String stringTestThree = "This is a word count test this time time time time time we will be test" +
                 "ing how many times time comes up";
-
+        String stringTestFour = "They don't know me son who's gonna carry the boats and the logs";
+        String stringTestFive = "This is the final string test how many times does string string string" +
+                " come up I guess we'll see";
         String[] testCase1 = stringTestOne.split(" ");
         String[] testCase2 = stringTestTwo.split(" ");
         String[] testCase3 = stringTestThree.split(" ");
