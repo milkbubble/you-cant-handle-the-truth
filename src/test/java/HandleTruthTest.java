@@ -1,8 +1,7 @@
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+
+import java.util.*;
 
 public class HandleTruthTest {
     @Test
@@ -21,6 +20,7 @@ public class HandleTruthTest {
         String[] testCase4 = stringTestFour.split(" ");
         String[] testCase5 = stringTestFive.split(" ");
         String[][] testCases = new String[][] { testCase1, testCase2, testCase3, testCase4, testCase5};
+        TreeMap<Integer, Set<String>> testOneExpected = new TreeMap<>(Collections.reverseOrder());
 
         for (int i = 0; i < testCases.length; i ++) {
             for (int j = 0; j < testCases[i].length;) {
